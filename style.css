@@ -1,5 +1,4 @@
 /* General Page Styling */
-/* General Page Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -351,24 +350,24 @@ footer {
 }
 /* General Link Styling <---- Applies to all links unless overridden */
 a {
-    color: #00FFFF; /* Bright cyan for better contrast */
+    color: #FFFFFF; /* White color for visibility on purple background */
     text-decoration: none; /* Removes underlines for a cleaner look */
-    font-weight: bold; /* Makes links stand out */
+    font-weight: bold; /* Makes links more prominent */
 }
 
 a:hover {
-    text-decoration: underline; /* Adds underline on hover for emphasis */
-    color: #FFD700; /* Gold color on hover for a nice effect */
+    text-decoration: underline; /* Adds underline on hover */
+    color: #FFD700; /* Gold color on hover for contrast and emphasis */
 }
 
 /* Specific Styling for Links in Lists <---- For links inside <ul> */
 ul li a {
-    color: #00FFFF; /* Ensure links inside lists are bright cyan */
+    color: #FFFFFF; /* White links inside list items */
     transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover effect */
 }
 
 ul li a:hover {
-    color: #FFD700; /* Change to gold on hover */
+    color: #FFD700; /* Gold on hover */
     text-decoration: underline; /* Underline on hover */
 }
 
