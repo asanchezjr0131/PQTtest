@@ -349,3 +349,26 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
 }
+/* General Link Styling <---- Applies to all links unless overridden */
+a {
+    color: #00FFFF; /* Bright cyan for better contrast */
+    text-decoration: none; /* Removes underlines for a cleaner look */
+    font-weight: bold; /* Makes links stand out */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for emphasis */
+    color: #FFD700; /* Gold color on hover for a nice effect */
+}
+
+/* Specific Styling for Links in Lists <---- For links inside <ul> */
+ul li a {
+    color: #00FFFF; /* Ensure links inside lists are bright cyan */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover effect */
+}
+
+ul li a:hover {
+    color: #FFD700; /* Change to gold on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
